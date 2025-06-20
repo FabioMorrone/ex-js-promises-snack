@@ -17,4 +17,4 @@ const lanciaDado = () => {
 
 lanciaDado()
     .then(numero => console.log("Hai tirato:", numero))
-    .catch(errore => console.error("Errore:", errore));
+    .catch(err => console.error("Errore:", err));
